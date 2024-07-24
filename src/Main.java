@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Define the BankAccount class
 class BankAccount {
     private double balance;
 
@@ -24,14 +23,11 @@ class BankAccount {
     }
 }
 
-// Define the InsufficientBalanceException class
 class InsufficientBalanceException extends Exception {
     public InsufficientBalanceException(String message) {
         super(message);
     }
 }
-
-// Define the ATM class
 class ATM {
     private BankAccount bankAccount;
     private Scanner scanner;
